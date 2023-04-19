@@ -1,6 +1,6 @@
 # Second_post
 
 
-test image
+![dog](/images/coding_dog.jpg)
 
-![dog](/images/dog_coding.jpg)
+test image
