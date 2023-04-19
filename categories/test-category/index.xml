@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>test category - 분류 - Sunwoo&#39;s Blog</title>
+        <link>http://usunwoo.github.io/categories/test-category/</link>
+        <description>test category - 분류 - Sunwoo&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>ko</language><lastBuildDate>Wed, 19 Apr 2023 21:48:33 &#43;0900</lastBuildDate><atom:link href="http://usunwoo.github.io/categories/test-category/" rel="self" type="application/rss+xml" /><item>
+    <title>테스트 글</title>
+    <link>http://usunwoo.github.io/first_post/</link>
+    <pubDate>Wed, 19 Apr 2023 21:48:33 &#43;0900</pubDate><author>
+        <name>Usunwoo</name>
+    </author><guid>http://usunwoo.github.io/first_post/</guid>
+    <description><![CDATA[테스트 테스트 글입니다.
+테스트2 테스트2]]></description>
+</item></channel>
+</rss>
