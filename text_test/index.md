@@ -1,4 +1,4 @@
 # Text_test
 
 
-test text
+테스트 글입니다.

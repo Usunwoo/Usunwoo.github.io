@@ -41,7 +41,7 @@
         function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme;   window.isDark = window.theme !== 'light' }
         function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
         function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
-        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('light' === 'light' || 'light' === 'dark' || 'light' === 'black') setTheme('light'), saveTheme('light'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
         let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
         getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
         window.switchThemeEventSet = new Set()
@@ -133,14 +133,14 @@
         <span class="post-author"><i class="author fas fa-user-circle fa-fw"></i><a href="/" title="Author" rel=" author" class="author">Usunwoo</a>
         </span>&nbsp;<span class="post-publish"><time datetime="2023-04-20">2023-04-20</time> 작성</span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">분류: <a href="/categories/%EC%9D%B4%EB%AF%B8%EC%A7%80/"><i class="far fa-folder fa-fw"></i>이미지</a></span></div><div class="content"></div><div class="post-footer">
         <a href="/image_test/">더 읽기...</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/image/">image</a>,&nbsp;<a href="/tags/dog/">dog</a></div></div>
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/image/">image</a>,&nbsp;<a href="/tags/dog/">dog</a>,&nbsp;<a href="/tags/test/">test</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/text_test/">Text_test</a>
     </h1><div class="post-meta">
         <span class="post-author"><i class="author fas fa-user-circle fa-fw"></i><a href="/" title="Author" rel=" author" class="author">Usunwoo</a>
-        </span>&nbsp;<span class="post-publish"><time datetime="2023-04-20">2023-04-20</time> 작성</span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">분류: <a href="/categories/%ED%85%8D%EC%8A%A4%ED%8A%B8/"><i class="far fa-folder fa-fw"></i>텍스트</a></span></div><div class="content">test text</div><div class="post-footer">
+        </span>&nbsp;<span class="post-publish"><time datetime="2023-04-20">2023-04-20</time> 작성</span>&nbsp;<span class="post-category">included in </span>&nbsp;<span class="post-category">분류: <a href="/categories/%ED%85%8D%EC%8A%A4%ED%8A%B8/"><i class="far fa-folder fa-fw"></i>텍스트</a></span></div><div class="content">테스트 글입니다.</div><div class="post-footer">
         <a href="/text_test/">더 읽기...</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/text/">text</a></div></div>
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/text/">text</a>,&nbsp;<a href="/tags/test/">test</a></div></div>
 </article></div></div>
         </main><footer class="footer">
         <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank" rel="noopener noreferrer">Usunwoo</a></span></div>
