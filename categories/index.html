@@ -30,7 +30,7 @@
         function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme;   window.isDark = window.theme !== 'light' }
         function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
         function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
-        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('light' === 'light' || 'light' === 'dark' || 'light' === 'black') setTheme('light'), saveTheme('light'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
         let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
         getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
         window.switchThemeEventSet = new Set()
@@ -111,11 +111,20 @@
             <div class="container"><div class="page archive"><h2 class="single-title animate__animated animate__pulse animate__faster">모든 분류</h2><div class="categories-card"><div class="card-item">
                         <div class="card-item-wrapper">
                             <h3 class="card-item-title">
-                                <a href="/categories/test-category/">
-                                    <i class="far fa-folder fa-fw"></i>&nbsp;test category <sup>1</sup>
+                                <a href="/categories/%EC%9D%B4%EB%AF%B8%EC%A7%80/">
+                                    <i class="far fa-folder fa-fw"></i>&nbsp;이미지 <sup>1</sup>
                                 </a>
                             </h3><article class="archive-item">
-                                    <a href="/first_post/" class="archive-item-link">테스트 글</a>
+                                    <a href="/image_test/" class="archive-item-link">Image_test</a>
+                                </article></div>
+                    </div><div class="card-item">
+                        <div class="card-item-wrapper">
+                            <h3 class="card-item-title">
+                                <a href="/categories/%ED%85%8D%EC%8A%A4%ED%8A%B8/">
+                                    <i class="far fa-folder fa-fw"></i>&nbsp;텍스트 <sup>1</sup>
+                                </a>
+                            </h3><article class="archive-item">
+                                    <a href="/text_test/" class="archive-item-link">Text_test</a>
                                 </article></div>
                     </div></div></div></div>
         </main><footer class="footer">

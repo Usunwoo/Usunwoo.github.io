@@ -3,22 +3,22 @@
         <title>Sunwoo&#39;s Blog</title>
         <link>http://usunwoo.github.io/</link>
         <description>This is Sunwoo&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>ko</language><lastBuildDate>Wed, 19 Apr 2023 23:25:16 &#43;0900</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>ko</language><managingEditor>sunsense9@gmail.com (Usunwoo)</managingEditor>
+            <webMaster>sunsense9@gmail.com (Usunwoo)</webMaster><lastBuildDate>Thu, 20 Apr 2023 05:00:02 &#43;0900</lastBuildDate>
             <atom:link href="http://usunwoo.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Second_post</title>
-    <link>http://usunwoo.github.io/second_post/</link>
-    <pubDate>Wed, 19 Apr 2023 23:25:16 &#43;0900</pubDate><author>
+    <title>Image_test</title>
+    <link>http://usunwoo.github.io/image_test/</link>
+    <pubDate>Thu, 20 Apr 2023 05:00:02 &#43;0900</pubDate><author>
         <name>Usunwoo</name>
-    </author><guid>http://usunwoo.github.io/second_post/</guid>
-    <description><![CDATA[test image]]></description>
+    </author><guid>http://usunwoo.github.io/image_test/</guid>
+    <description><![CDATA[]]></description>
 </item><item>
-    <title>테스트 글</title>
-    <link>http://usunwoo.github.io/first_post/</link>
-    <pubDate>Wed, 19 Apr 2023 21:48:33 &#43;0900</pubDate><author>
+    <title>Text_test</title>
+    <link>http://usunwoo.github.io/text_test/</link>
+    <pubDate>Thu, 20 Apr 2023 04:59:56 &#43;0900</pubDate><author>
         <name>Usunwoo</name>
-    </author><guid>http://usunwoo.github.io/first_post/</guid>
-    <description><![CDATA[테스트 테스트 글입니다.
-테스트2 테스트]]></description>
+    </author><guid>http://usunwoo.github.io/text_test/</guid>
+    <description><![CDATA[test text]]></description>
 </item></channel>
 </rss>

@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>text - 태그 - Sunwoo&#39;s Blog</title>
+        <link>http://usunwoo.github.io/tags/text/</link>
+        <description>text - 태그 - Sunwoo&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>ko</language><managingEditor>sunsense9@gmail.com (Usunwoo)</managingEditor>
+            <webMaster>sunsense9@gmail.com (Usunwoo)</webMaster><lastBuildDate>Thu, 20 Apr 2023 04:59:56 &#43;0900</lastBuildDate><atom:link href="http://usunwoo.github.io/tags/text/" rel="self" type="application/rss+xml" /><item>
+    <title>Text_test</title>
+    <link>http://usunwoo.github.io/text_test/</link>
+    <pubDate>Thu, 20 Apr 2023 04:59:56 &#43;0900</pubDate><author>
+        <name>Usunwoo</name>
+    </author><guid>http://usunwoo.github.io/text_test/</guid>
+    <description><![CDATA[test text]]></description>
+</item></channel>
+</rss>
