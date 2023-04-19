@@ -2,6 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>http://example.org/first_post/</loc><lastmod>2023-04-19T21:48:33&#43;09:00</lastmod></url><url>
             <loc>http://example.org/categories/</loc></url><url>
             <loc>http://example.org/</loc></url><url>
             <loc>http://example.org/tags/</loc></url></urlset>
